@@ -1,0 +1,38 @@
+/*css*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#controls {
+    margin: 20px;
+}
+
+button, select, input {
+    margin: 5px;
+}
+
+#arrayContainer {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.bar {
+    width: 10px;
+    margin: 0 1px;
+    background-color: #3498db;
+    transition: height 0.3s ease;
+}
+ 
+
+
